@@ -1,0 +1,183 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(Montserrat-Black.ttf);
+
+}
+body{
+    margin: 0;
+}
+.nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: #121212; 
+    display:flex; 
+
+}
+.logo{
+    padding: 15px 0 0 20px;
+}
+.logo button{
+    background-color: white;
+    color:black;
+    outline: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.lin{
+    color: white;
+    text-decoration: none;
+}
+.about{
+  
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    padding-left: 900px;
+}
+li{
+    padding:5px 20px;
+}
+
+.main-body{
+    width: 100vw;
+    height: 80vh;
+    background-color:white;
+    display: inline-block;
+    display: flex;
+    
+}
+h1{
+    margin: 0;
+    font-family: Montserrat;
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out; 
+}
+.bio{
+    width: 50vw;
+    padding-top: 80px; 
+    margin-left: 80px; 
+   
+}
+.bio p{
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out; 
+}
+.bio button{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.game{
+    display: flex;
+}
+.puzzle {
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 200px;
+    height: 190px;
+    border-radius: 5px;
+}
+.puzzle button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    color:white;
+    outline: none;
+    /*border-radius: 5px;*/
+
+}
+.puzzle2 {
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 200px;
+    height: 190px;
+    border-radius: 5px;
+}
+.puzzle2 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color:black;
+    outline: none;
+    /*border-radius: 5px;*/
+}
+.main-image {
+    width: 50vw;
+}
+.main-image img{
+    width: 360px;
+    height: 460px;
+    float: right;
+    
+
+    /*padding-right: 40px;*/
+    
+}
+.foot{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: white;
+    width: 100vw;
+    height:12vh;
+    background-color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot b{
+    font-size: 15px;
+    font-weight:500;
+}
+p{
+    margin: 0;
+    padding-top: 5px;
+    animation-name: nav;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+.smi{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    width: 100px;
+    background-color:white;
+    padding: 5px 5px;
+    animation-name: nav;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+
+}
+.smi img{
+    width: 20px;
+}
+@keyframes text{
+    from{background-color:white;}
+    to{background-color: crimson;}
+}
+@keyframes ani{
+    from{margin-bottom: 50px;}
+    to{margin-bottom;:0px}
+}
+@keyframes nav{
+    from{margin-bottom: -150px;}
+    to{margin-left:0px}
+}
